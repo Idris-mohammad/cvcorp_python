@@ -17,5 +17,7 @@ def two_times(x):
     return x*2
 def square(x):
     return x*x
-print(run_twice(two_times,9),run_twice(square,9))
-print(length)
+q_num=int(input())
+if q_num==2:
+    print(run_twice(two_times,9),run_twice(square,9))
+    print(length)

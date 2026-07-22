@@ -21,4 +21,8 @@ class Book:
             return b
         else:
             print("Invalid Title")
-b1=Book("classmate","Idris")
+b1=Book.from_string("classmate-Idris")
+if b1:
+    print(b1.title,b1.Author,sep="\n")
+else:
+    print("nothing in the object")

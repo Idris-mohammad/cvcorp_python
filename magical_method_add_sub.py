@@ -12,8 +12,12 @@ class Vector:
         return f"vector({self.num,self.num2})"
 v1=Vector(7,8)
 v2=Vector(6,7)
-print(v1+v2)
-print(v1-v2)
-print(v1)
-l=[v1,v2]
-print(l)
+v3=Vector(3,4)
+print(v1+v2+v3)
+v4=v1+v2+v3
+print(v4)
+# print(v1+v2)
+# print(v1-v2)
+# print(v1)
+# l=[v1,v2]
+# print(l)
